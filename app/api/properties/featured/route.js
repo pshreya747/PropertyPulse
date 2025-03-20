@@ -8,7 +8,7 @@ export const GET = async (request) => {
 
     const properties = await Property.find({
       is_featured: true,
-    });
+    }) || [];
 
     return new Response(JSON.stringify(properties), {
       status: 200,

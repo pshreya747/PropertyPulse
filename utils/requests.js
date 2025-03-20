@@ -16,8 +16,9 @@ async function fetchProperties({ showFeatured = false } = {}) {
     if (!res.ok) {
       throw new Error('Failed to fetch data');
     }
+    const data=await res.json();
+    return Array.isArray(data)?data :[];
 
-    return res.json();
   } catch (error) {
     console.log(error);
     return [];
