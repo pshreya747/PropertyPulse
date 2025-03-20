@@ -12,6 +12,7 @@ export const GET = async (request) => {
 
     return new Response(JSON.stringify(properties), {
       status: 200,
+      headers:{"cache-control":"no-store"},
     });
   } catch (error) {
     console.log(error);
