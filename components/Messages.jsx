@@ -38,7 +38,7 @@ const Messages = () => {
             {messages.length === 0 ? (
               <p>You have no messages</p>
             ) : (
-              messages.map((message) => (
+              messages?.map((message) => (
                 <Message key={message._id} message={message} />
               ))
             )}
