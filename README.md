@@ -72,7 +72,6 @@ openssl rand -base64 32
 - **MongoDB Atlas** (Create a cluster at [MongoDB](https://www.mongodb.com))
 - **Cloudinary** (Sign up at [Cloudinary](https://cloudinary.com))
 - **Google Cloud Console** (Create OAuth credentials at [Google Cloud](https://console.cloud.google.com))
-- **Mapbox** (Sign up at [Mapbox](https://www.mapbox.com))
 
 ### Installation
 
